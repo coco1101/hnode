@@ -249,7 +249,7 @@ func startNode(ctx *cli.Context, stack *node.Node, conf *config.HpbConfig) {
 
 	//set rpc aii
 	//utils.SetNodeAPI(&conf.Node, stack)
-	// Start up the node itself
+	// Start up the node itselfK
 	utils.StartNode(stack)
 	// Register wallet event handlers to open and auto-derive wallets
 	events := make(chan accounts.WalletEvent, 16)
